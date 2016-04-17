@@ -1,0 +1,10 @@
+<h1>지난 이메일입니다.</h1>
+<%@every.each do |p|%>
+제목:<%=p.title%>
+<br>
+내용:<%=p.content%>
+<br>
+시간 : <%=p.created_at%>
+<hr>
+<% end%>
+<h1><a href="/">다시 이메일 쓰러 가기</a></h1>
